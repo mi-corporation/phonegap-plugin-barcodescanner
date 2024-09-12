@@ -1,6 +1,10 @@
 # PhoneGap Plugin BarcodeScanner
 ================================
 
+*** This fork is based on https://github.com/phonegap/phonegap-plugin-barcodescanner version 8.1.1-dev (Master branch as of 9/12/2024) and has been
+modified to match the changes in PR 851 (https://github.com/phonegap/phonegap-plugin-barcodescanner/pull/851). This change updates the gradle file to
+support compilation under java development kit version 17, which is required by cordova-android version 13. ***
+
 [![Build Status](https://travis-ci.org/phonegap/phonegap-plugin-barcodescanner.svg)](https://travis-ci.org/phonegap/phonegap-plugin-barcodescanner)
 
 Cross-platform BarcodeScanner for Cordova / PhoneGap.
